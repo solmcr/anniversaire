@@ -1,28 +1,104 @@
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+/* Réinitialisation des styles de base */
+* {
+    margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
-h1 {
+/* Styles de base pour le corps de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
     color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Styles pour les titres */
+h1, h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Styles pour les paragraphes */
+p {
+    margin-bottom: 15px;
+}
+
+/* Styles pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Styles pour les boutons */
 .button {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.button a {
+.button a, .button button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.button a:hover {
+.button a:hover, .button button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les formulaires */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
     background-color: #0056b3;
 }
