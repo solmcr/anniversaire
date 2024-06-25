@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+/* Style pour centrer l'image */
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacement sous l'image */
+}
+
+.center-image img {
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Garde le ratio hauteur-largeur de l'image */
+}
+
 /* Styles de base pour le corps de la page */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
