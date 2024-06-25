@@ -5,13 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Style pour centrer l'image */
-.center-image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Espacement sous l'image */
-}
-
 /* Styles spécifiques pour l'image */
 .center-image {
     display: flex;
