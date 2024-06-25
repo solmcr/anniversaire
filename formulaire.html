@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Voeux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire de Voeux</h1>
+    <p>Remplissez le formulaire pour envoyer vos vœux d'anniversaire :</p>
+
+    <form action="envoi_voeux.php" method="POST">
+        <label for="nom">Votre nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="message">Votre message :</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <div class="button">
+        <a href="voeux.html">Retour aux vœux d'anniversaire</a>
+    </div>
+</body>
+</html>
