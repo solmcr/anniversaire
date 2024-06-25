@@ -15,18 +15,20 @@ body {
     padding: 20px;
 }
 
-/* Styles pour les titres */
-h1, h2 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #007bff;
-}
 /* Styles pour le titre principal */
 h1 {
     color: #ffc0cb; /* Rose pâle */
     font-size: 2.5rem; /* Taille de la police */
     text-align: center; /* Centrer le texte */
     margin-bottom: 20px; /* Marge inférieure */
+ }   
+
+/* Styles pour les titres */
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #007bff;
+
 }
 
 /* Styles pour les paragraphes */
