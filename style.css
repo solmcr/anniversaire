@@ -12,6 +12,19 @@
     margin-bottom: 20px; /* Espacement sous l'image */
 }
 
+/* Styles spécifiques pour l'image */
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+}
+
 .center-image img {
     max-width: 100%; /* Assure que l'image ne dépasse pas la largeur du conteneur */
     height: auto; /* Garde le ratio hauteur-largeur de l'image */
